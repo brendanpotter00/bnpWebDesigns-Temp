@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    color: white;
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+.content {
+    position: absolute;
+    margin: 2em;
+    align-items: center;
+    z-index: 1;
+   
+}
+h1 {
+    font-size:3em;
+}
+p {
+    font-size: 1.4em;
+    font-weight: none;
+    margin-top: 3em;
+   
+}
+#iframe-goes-in-here {
+    position: absolute;
+
+    background-color: #ff0000;
+    bottom: 1em;
+    right:5%;
+    
+    
+}
+  #my-gui-container {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 10;
+}
